@@ -17,7 +17,9 @@ editar el archivo scraper/settings.py con el path del usuario
 
 scrapy crawl dof
 
-./manage.py runserver
+chmod +x dofapi/manage.py
+
+./dofapi/manage.py runserver
 
 
 * http://127.0.0.1:8000/api/v1/publicacion/?format=json
