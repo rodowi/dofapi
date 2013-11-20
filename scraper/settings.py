@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'scraper.spiders'
 import os
 import sys
 
-sys.path.insert(0, '/home/user/.../dofapi/dofapi')
+sys.path.insert(0, 'dofapi')
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'dofapi.settings'
 
